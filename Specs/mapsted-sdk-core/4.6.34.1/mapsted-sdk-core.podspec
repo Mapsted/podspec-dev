@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license          = 'Mapsted Corp.'
 
     s.platform          = :ios 
-    s.source            = { :http => "https://github.com/Mapsted/mapsted-sdk-positioning-dev/raw/master/MapstedCore_4.6.34.1.framework.zip" }
+    s.source            = { :http => "https://github.com/Mapsted/mapsted-sdk-positioning-dev/raw/main/MapstedCore_4.6.34.1.framework.zip" }
     s.ios.deployment_target = '13.0'
     s.ios.vendored_frameworks = 'MapstedCore.framework'
     s.libraries = "z", "c++"
