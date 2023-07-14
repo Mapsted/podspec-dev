@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.platform          = :ios
     s.source            = { :git => "https://github.com/Mapsted/mapsted-sdk-dev.git", :tag => '5.1.3' }
     s.ios.deployment_target = '13.0'
-    s.ios.vendored_frameworks = "MapstedMap.framework","coremap.framework"
+    s.ios.vendored_frameworks = "MapstedMap.framework"
     s.libraries = "z", "c++"
     s.ios.framework  = 'GLKit'
     s.dependency 'mapsted-sdk-core','5.1.3'
