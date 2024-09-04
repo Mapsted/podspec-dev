@@ -12,6 +12,5 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '13.0'
     s.ios.vendored_frameworks = 'MapstedCore.framework'
     s.libraries = "z", "c++"
-    s.dependency 'CocoaMQTT', '~>1.0'
     s.dependency 'SSZipArchive'
 end  
