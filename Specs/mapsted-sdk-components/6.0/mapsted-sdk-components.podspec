@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
     s.ios.vendored_frameworks = "MapstedComponentsCore.framework", "MapstedComponentsUI.framework"
     s.libraries = "z", "c++"
     s.dependency 'mapsted-sdk-core','6.0'
-    s.dependency 'Kingfisher','7.12.0'
+    s.dependency 'Kingfisher', '~> 7.0'
 end  
