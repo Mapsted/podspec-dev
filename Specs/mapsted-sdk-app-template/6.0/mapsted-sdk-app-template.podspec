@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     s.dependency 'mapsted-sdk-map-ui','6.0' 
     s.dependency 'mapsted-sdk-triggers-core','6.0' 
     s.dependency 'SSZipArchive'
-    s.dependency 'Kingfisher''~> 7.0'
+    s.dependency 'Kingfisher','7.12.0'
    
     
 end  
