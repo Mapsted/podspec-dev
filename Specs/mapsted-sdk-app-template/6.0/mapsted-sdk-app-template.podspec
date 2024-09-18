@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
 
     s.platform          = :ios
     s.source            = { :git => "https://github.com/Mapsted/mapsted-sdk-dev.git", :tag => '6.0' }
+    s.source_files  = "AppTemplate.framework/Headers/*.{h,m}"
     s.ios.deployment_target = '13.0'
     s.ios.vendored_frameworks = "AppTemplate.framework"
     s.libraries = "z", "c++"
